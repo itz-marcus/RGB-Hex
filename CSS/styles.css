@@ -1,32 +1,42 @@
-body {
-    font-family: Arial, sans-serif;
-    text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+html{
+    font-family: "Press Start 2P", system-ui;
+    font-style: normal;
+    font-size: 65%;
 }
+body{
+    display: flex;
+    justify-content: center;
 
-input[type="number"] {
+}
+h1{
+    text-shadow:2px 2px rgb(192, 192, 192)
+}
+input{
     width: 100px;
-    height: 30px;
-    font-size: 18px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    margin: 10px;
 }
-
-#convert-btn {
-    background-color: #4CAF50;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+#page{
+    width: 27vw;
+    height: 250px;
+    background-color: rgb(184, 44, 175);
+    text-align: center;
+    box-shadow: 6px 6px rgb(135, 24, 152);
 }
-
-#convert-btn:hover {
-    background-color: #3e8e41;
+#red{
+    color: rgb(255, 0, 0);
 }
-
-#result {
-    font-size: 24px;
-    font-weight: bold;
-    margin-top: 20px;
+#green{
+    color: rgb(0, 255, 64);
+}
+#blue{
+    color: rgb(64, 0, 255);
+}
+button{
+    background-color: gray;
+    color: white;
+    font-family: "Press Start 2P", system-ui;
+    font-size: 10px;
+    width: 120px;
+    height: 25px;
+    justify-content: center;
 }
